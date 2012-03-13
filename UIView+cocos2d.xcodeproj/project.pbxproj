@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4015F1F150FA02700BE89CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4015F1E150FA02700BE89CD /* UIKit.framework */; };
+		D4015F21150FA02700BE89CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4015F20150FA02700BE89CD /* Foundation.framework */; };
+		D4015F23150FA02700BE89CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4015F22150FA02700BE89CD /* CoreGraphics.framework */; };
+		D4015F29150FA02700BE89CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4015F27150FA02700BE89CD /* InfoPlist.strings */; };
+		D4015F2B150FA02700BE89CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4015F2A150FA02700BE89CD /* main.m */; };
+		D4015F2F150FA02700BE89CD /* UIView_cocos2dAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4015F2E150FA02700BE89CD /* UIView_cocos2dAppDelegate.m */; };
+		D4015F32150FA02700BE89CD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4015F30150FA02700BE89CD /* MainWindow.xib */; };
+		D4015F35150FA02700BE89CD /* UIView_cocos2dViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4015F34150FA02700BE89CD /* UIView_cocos2dViewController.m */; };
+		D4015F38150FA02700BE89CD /* UIView_cocos2dViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4015F36150FA02700BE89CD /* UIView_cocos2dViewController.xib */; };
+		D4015F40150FA02700BE89CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4015F3F150FA02700BE89CD /* SenTestingKit.framework */; };
+		D4015F41150FA02700BE89CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4015F1E150FA02700BE89CD /* UIKit.framework */; };
+		D4015F42150FA02700BE89CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4015F20150FA02700BE89CD /* Foundation.framework */; };
+		D4015F43150FA02700BE89CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4015F22150FA02700BE89CD /* CoreGraphics.framework */; };
+		D4015F4B150FA02700BE89CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4015F49150FA02700BE89CD /* InfoPlist.strings */; };
+		D4015F4D150FA02700BE89CD /* UIView_cocos2dTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D4015F4C150FA02700BE89CD /* UIView_cocos2dTests.h */; };
+		D4015F4F150FA02800BE89CD /* UIView_cocos2dTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4015F4E150FA02800BE89CD /* UIView_cocos2dTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4015F44150FA02700BE89CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4015F11150FA02700BE89CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4015F19150FA02700BE89CD;
+			remoteInfo = "UIView+cocos2d";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4015F1A150FA02700BE89CD /* UIView+cocos2d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView+cocos2d.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4015F1E150FA02700BE89CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4015F20150FA02700BE89CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4015F22150FA02700BE89CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4015F26150FA02700BE89CD /* UIView+cocos2d-Info.plist */ = {isa = PBXFileReference; path = "UIView+cocos2d-Info.plist"; sourceTree = "<group>"; };
+		D4015F28150FA02700BE89CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4015F2A150FA02700BE89CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4015F2C150FA02700BE89CD /* UIView+cocos2d-Prefix.pch */ = {isa = PBXFileReference; path = "UIView+cocos2d-Prefix.pch"; sourceTree = "<group>"; };
+		D4015F2D150FA02700BE89CD /* UIView_cocos2dAppDelegate.h */ = {isa = PBXFileReference; path = UIView_cocos2dAppDelegate.h; sourceTree = "<group>"; };
+		D4015F2E150FA02700BE89CD /* UIView_cocos2dAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_cocos2dAppDelegate.m; sourceTree = "<group>"; };
+		D4015F31150FA02700BE89CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D4015F33150FA02700BE89CD /* UIView_cocos2dViewController.h */ = {isa = PBXFileReference; path = UIView_cocos2dViewController.h; sourceTree = "<group>"; };
+		D4015F34150FA02700BE89CD /* UIView_cocos2dViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_cocos2dViewController.m; sourceTree = "<group>"; };
+		D4015F37150FA02700BE89CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIView_cocos2dViewController.xib; sourceTree = "<group>"; };
+		D4015F3E150FA02700BE89CD /* UIView+cocos2dTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView+cocos2dTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4015F3F150FA02700BE89CD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4015F48150FA02700BE89CD /* UIView+cocos2dTests-Info.plist */ = {isa = PBXFileReference; path = "UIView+cocos2dTests-Info.plist"; sourceTree = "<group>"; };
+		D4015F4A150FA02700BE89CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4015F4C150FA02700BE89CD /* UIView_cocos2dTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIView_cocos2dTests.h; sourceTree = "<group>"; };
+		D4015F4E150FA02800BE89CD /* UIView_cocos2dTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_cocos2dTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4015F17150FA02700BE89CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4015F1F150FA02700BE89CD /* UIKit.framework in Frameworks */,
+				D4015F21150FA02700BE89CD /* Foundation.framework in Frameworks */,
+				D4015F23150FA02700BE89CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4015F3A150FA02700BE89CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4015F40150FA02700BE89CD /* SenTestingKit.framework in Frameworks */,
+				D4015F41150FA02700BE89CD /* UIKit.framework in Frameworks */,
+				D4015F42150FA02700BE89CD /* Foundation.framework in Frameworks */,
+				D4015F43150FA02700BE89CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4015F0F150FA02700BE89CD = {
+			isa = PBXGroup;
+			children = (
+				D4015F24150FA02700BE89CD /* UIView+cocos2d */,
+				D4015F46150FA02700BE89CD /* UIView+cocos2dTests */,
+				D4015F1D150FA02700BE89CD /* Frameworks */,
+				D4015F1B150FA02700BE89CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4015F1B150FA02700BE89CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4015F1A150FA02700BE89CD /* UIView+cocos2d.app */,
+				D4015F3E150FA02700BE89CD /* UIView+cocos2dTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4015F1D150FA02700BE89CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4015F1E150FA02700BE89CD /* UIKit.framework */,
+				D4015F20150FA02700BE89CD /* Foundation.framework */,
+				D4015F22150FA02700BE89CD /* CoreGraphics.framework */,
+				D4015F3F150FA02700BE89CD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4015F24150FA02700BE89CD /* UIView+cocos2d */ = {
+			isa = PBXGroup;
+			children = (
+				D4015F2D150FA02700BE89CD /* UIView_cocos2dAppDelegate.h */,
+				D4015F2E150FA02700BE89CD /* UIView_cocos2dAppDelegate.m */,
+				D4015F30150FA02700BE89CD /* MainWindow.xib */,
+				D4015F33150FA02700BE89CD /* UIView_cocos2dViewController.h */,
+				D4015F34150FA02700BE89CD /* UIView_cocos2dViewController.m */,
+				D4015F36150FA02700BE89CD /* UIView_cocos2dViewController.xib */,
+				D4015F25150FA02700BE89CD /* Supporting Files */,
+			);
+			path = "UIView+cocos2d";
+			sourceTree = "<group>";
+		};
+		D4015F25150FA02700BE89CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4015F26150FA02700BE89CD /* UIView+cocos2d-Info.plist */,
+				D4015F27150FA02700BE89CD /* InfoPlist.strings */,
+				D4015F2A150FA02700BE89CD /* main.m */,
+				D4015F2C150FA02700BE89CD /* UIView+cocos2d-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4015F46150FA02700BE89CD /* UIView+cocos2dTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4015F4C150FA02700BE89CD /* UIView_cocos2dTests.h */,
+				D4015F4E150FA02800BE89CD /* UIView_cocos2dTests.m */,
+				D4015F47150FA02700BE89CD /* Supporting Files */,
+			);
+			path = "UIView+cocos2dTests";
+			sourceTree = "<group>";
+		};
+		D4015F47150FA02700BE89CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4015F48150FA02700BE89CD /* UIView+cocos2dTests-Info.plist */,
+				D4015F49150FA02700BE89CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4015F19150FA02700BE89CD /* UIView+cocos2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4015F52150FA02800BE89CD /* Build configuration list for PBXNativeTarget "UIView+cocos2d" */;
+			buildPhases = (
+				D4015F16150FA02700BE89CD /* Sources */,
+				D4015F17150FA02700BE89CD /* Frameworks */,
+				D4015F18150FA02700BE89CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIView+cocos2d";
+			productName = "UIView+cocos2d";
+			productReference = D4015F1A150FA02700BE89CD /* UIView+cocos2d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4015F3D150FA02700BE89CD /* UIView+cocos2dTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4015F55150FA02800BE89CD /* Build configuration list for PBXNativeTarget "UIView+cocos2dTests" */;
+			buildPhases = (
+				D4015F39150FA02700BE89CD /* Sources */,
+				D4015F3A150FA02700BE89CD /* Frameworks */,
+				D4015F3B150FA02700BE89CD /* Resources */,
+				D4015F3C150FA02700BE89CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4015F45150FA02700BE89CD /* PBXTargetDependency */,
+			);
+			name = "UIView+cocos2dTests";
+			productName = "UIView+cocos2dTests";
+			productReference = D4015F3E150FA02700BE89CD /* UIView+cocos2dTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4015F11150FA02700BE89CD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D4015F14150FA02700BE89CD /* Build configuration list for PBXProject "UIView+cocos2d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4015F0F150FA02700BE89CD;
+			productRefGroup = D4015F1B150FA02700BE89CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4015F19150FA02700BE89CD /* UIView+cocos2d */,
+				D4015F3D150FA02700BE89CD /* UIView+cocos2dTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4015F18150FA02700BE89CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4015F29150FA02700BE89CD /* InfoPlist.strings in Resources */,
+				D4015F32150FA02700BE89CD /* MainWindow.xib in Resources */,
+				D4015F38150FA02700BE89CD /* UIView_cocos2dViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4015F3B150FA02700BE89CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4015F4B150FA02700BE89CD /* InfoPlist.strings in Resources */,
+				D4015F4D150FA02700BE89CD /* UIView_cocos2dTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4015F3C150FA02700BE89CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4015F16150FA02700BE89CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4015F2B150FA02700BE89CD /* main.m in Sources */,
+				D4015F2F150FA02700BE89CD /* UIView_cocos2dAppDelegate.m in Sources */,
+				D4015F35150FA02700BE89CD /* UIView_cocos2dViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4015F39150FA02700BE89CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4015F4F150FA02800BE89CD /* UIView_cocos2dTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4015F45150FA02700BE89CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4015F19150FA02700BE89CD /* UIView+cocos2d */;
+			targetProxy = D4015F44150FA02700BE89CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4015F27150FA02700BE89CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4015F28150FA02700BE89CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4015F30150FA02700BE89CD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4015F31150FA02700BE89CD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D4015F36150FA02700BE89CD /* UIView_cocos2dViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4015F37150FA02700BE89CD /* en */,
+			);
+			name = UIView_cocos2dViewController.xib;
+			sourceTree = "<group>";
+		};
+		D4015F49150FA02700BE89CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4015F4A150FA02700BE89CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4015F50150FA02800BE89CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4015F51150FA02800BE89CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4015F53150FA02800BE89CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIView+cocos2d/UIView+cocos2d-Prefix.pch";
+				INFOPLIST_FILE = "UIView+cocos2d/UIView+cocos2d-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4015F54150FA02800BE89CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIView+cocos2d/UIView+cocos2d-Prefix.pch";
+				INFOPLIST_FILE = "UIView+cocos2d/UIView+cocos2d-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4015F56150FA02800BE89CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIView+cocos2d.app/UIView+cocos2d";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIView+cocos2d/UIView+cocos2d-Prefix.pch";
+				INFOPLIST_FILE = "UIView+cocos2dTests/UIView+cocos2dTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D4015F57150FA02800BE89CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIView+cocos2d.app/UIView+cocos2d";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIView+cocos2d/UIView+cocos2d-Prefix.pch";
+				INFOPLIST_FILE = "UIView+cocos2dTests/UIView+cocos2dTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4015F14150FA02700BE89CD /* Build configuration list for PBXProject "UIView+cocos2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4015F50150FA02800BE89CD /* Debug */,
+				D4015F51150FA02800BE89CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4015F52150FA02800BE89CD /* Build configuration list for PBXNativeTarget "UIView+cocos2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4015F53150FA02800BE89CD /* Debug */,
+				D4015F54150FA02800BE89CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4015F55150FA02800BE89CD /* Build configuration list for PBXNativeTarget "UIView+cocos2dTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4015F56150FA02800BE89CD /* Debug */,
+				D4015F57150FA02800BE89CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4015F11150FA02700BE89CD /* Project object */;
+}
