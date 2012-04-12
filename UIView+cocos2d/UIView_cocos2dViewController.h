@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cocos2d.h"
 
 @interface UIView_cocos2dViewController : UIViewController
+{
+    UIWindow			*window;
+    EAGLView *glView;
+}
 
+-(void) removeEaglView;
 @end
